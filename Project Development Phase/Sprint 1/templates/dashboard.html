@@ -1,0 +1,21 @@
+{% extends 'base2.html '%} {% block head %}
+<title>Dashboard</title>
+{% endblock%} {%block body%}
+<h2 style="padding-left: 3%;">Dashboard</h2>
+<p style="padding-left: 10%; font-family: Georgia, 'Times New Roman', Times, serif;">
+  Retail inventory management is the process of ensuring you carry merchandise that shoppers want, with neither too little nor too much on hand. <br>
+  By managing inventory, retailers meet customer demand without running out of stock or carrying excess supply. <br>
+  In practice, effective retail inventory management results in lower costs and a better understanding of sales patterns. <br>
+  Retail inventory management tools and methods give retailers more information with which to run their businesses, including: <br>
+  <div style="padding-left: 15%; font-family: Georgia, 'Times New Roman', Times, serif;">
+    <li>Product locations</li>
+    <li>Quantities of each product type</li>
+    <li>Which stock sells well and which doesn’t, by location and sales channel.</li>
+    <li>Profit margin by style, model, product line or item</li>
+    <li>Ideal amount of inventory to have in back stock and storage</li>
+    <li>How many products to reorder and how often</li>
+    <li>When to discontinue a product</li>
+    <li>How changing seasons affect sales</li>
+  </div>
+</p>
+{% include 'table.html' %} {% endblock%}
