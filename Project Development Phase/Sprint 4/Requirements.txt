@@ -1,4 +1,0 @@
-Python Flask
-Sendgrid Account - To send Mail
-Sqlite3
-Ibm_db
